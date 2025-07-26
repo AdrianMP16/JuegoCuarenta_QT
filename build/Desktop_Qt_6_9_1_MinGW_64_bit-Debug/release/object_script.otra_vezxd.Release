@@ -1,0 +1,12 @@
+release/estructura_carta.o
+release/main.o
+release/mainwindow.o
+release/ventanaactualizar.o
+release/ventanacontinuar.o
+release/ventanajuego.o
+release/ventanaregistro.o
+release/moc_mainwindow.o
+release/moc_ventanaactualizar.o
+release/moc_ventanacontinuar.o
+release/moc_ventanajuego.o
+release/moc_ventanaregistro.o

@@ -1,0 +1,12 @@
+debug/estructura_carta.o
+debug/main.o
+debug/mainwindow.o
+debug/ventanaactualizar.o
+debug/ventanacontinuar.o
+debug/ventanajuego.o
+debug/ventanaregistro.o
+debug/moc_mainwindow.o
+debug/moc_ventanaactualizar.o
+debug/moc_ventanacontinuar.o
+debug/moc_ventanajuego.o
+debug/moc_ventanaregistro.o
