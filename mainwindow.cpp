@@ -58,16 +58,3 @@ void MainWindow::on_imagenlabel1_linkActivated(const QString &link)
     }
 }
 
-
-void MainWindow::on_imagenlabel2_linkActivated(const QString &link)
-{
-    QString ruta = "C:/Users/Usuario/Desktop/C de carpeta/U/Programación/proyecto bimestral/imagenes/corazocito negro.png";
-    QPixmap foto(ruta);
-
-    if (!foto.isNull()) {
-        ui->imagenlabel1->setPixmap(foto);
-    } else {
-        qDebug() << "Error al cargar la imagen desde: " << ruta;
-    }
-}
-

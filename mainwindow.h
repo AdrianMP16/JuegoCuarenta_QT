@@ -27,8 +27,6 @@ private slots:
 
     void on_imagenlabel1_linkActivated(const QString &link);
 
-    void on_imagenlabel2_linkActivated(const QString &link);
-
 private:
     Ui::MainWindow *ui;
     VentanaRegistro *ventanaRegistro;

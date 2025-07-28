@@ -148,9 +148,14 @@ public:
         salirboton->setGeometry(QRect(281, 330, 111, 24));
         imagenlabel1 = new QLabel(centralwidget);
         imagenlabel1->setObjectName("imagenlabel1");
-        imagenlabel1->setGeometry(QRect(90, 200, 111, 161));
+        imagenlabel1->setGeometry(QRect(180, 200, 311, 191));
         imagenlabel1->setScaledContents(true);
         MainWindow->setCentralWidget(centralwidget);
+        imagenlabel1->raise();
+        label->raise();
+        btnRegistrar->raise();
+        continuarboton->raise();
+        salirboton->raise();
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
         menubar->setGeometry(QRect(0, 0, 673, 21));

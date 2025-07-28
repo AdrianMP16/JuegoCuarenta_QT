@@ -557,10 +557,10 @@
    <widget class="QLabel" name="imagenlabel1">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>180</x>
       <y>200</y>
-      <width>111</width>
-      <height>161</height>
+      <width>311</width>
+      <height>191</height>
      </rect>
     </property>
     <property name="text">
@@ -570,22 +570,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="imagenlabel2">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>210</y>
-      <width>111</width>
-      <height>161</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>TextLabel</string>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
+   <zorder>imagenlabel1</zorder>
+   <zorder>label</zorder>
+   <zorder>btnRegistrar</zorder>
+   <zorder>continuarboton</zorder>
+   <zorder>salirboton</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
